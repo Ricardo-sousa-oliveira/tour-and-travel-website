@@ -1,0 +1,9 @@
+.nav {
+  &__link {
+    text-decoration: none;
+    color: $grey;
+    &--active {
+      color: $black;
+    }
+  }
+}
