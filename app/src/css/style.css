@@ -10,9 +10,23 @@
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 .button {
-  background: #f88c33;
+  background: #ff7402b4;
   border-radius: 8px;
-  padding: 7px 25px; }
+  color: white;
+  margin: 0 20px;
+  padding: 5px 25px; }
+  .button:hover {
+    text-decoration: none;
+    color: white; }
+  .button--inverted {
+    border-radius: 8px;
+    border: 1px solid #ff7402b4;
+    color: #ff7402b4;
+    margin: 0 20px;
+    padding: 5px 30px; }
+    .button--inverted:hover {
+      text-decoration: none;
+      color: #ff7402b4; }
 
 /* MEDIA QUERY --------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
@@ -57,11 +71,13 @@ textarea {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
-.nav__link {
-  text-decoration: none;
-  color: #B8BECD; }
-  .nav__link--active {
-    color: #000; }
+.nav {
+  margin-top: 50px; }
+  .nav__link {
+    text-decoration: none;
+    color: #B8BECD; }
+    .nav__link--active {
+      color: #000; }
 
 /* MOBILE STYLES ------------------------------------------------------------*/
 body {
