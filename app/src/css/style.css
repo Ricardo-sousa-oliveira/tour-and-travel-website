@@ -74,10 +74,18 @@ textarea {
 .nav {
   margin-top: 50px; }
   .nav__link {
+    padding-right: 20px;
     text-decoration: none;
     color: #B8BECD; }
     .nav__link--active {
+      text-decoration: none;
       color: #000; }
+    .nav__link:hover {
+      color: #000;
+      text-decoration: none; }
+
+.logo {
+  padding-top: 40px; }
 
 /* MOBILE STYLES ------------------------------------------------------------*/
 body {
