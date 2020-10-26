@@ -35,6 +35,14 @@
     .button__header:hover {
       text-decoration: none;
       color: white; }
+  .button__lear-more {
+    background: #ff7402b4;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 25px; }
+    .button__lear-more:hover {
+      text-decoration: none;
+      color: white; }
 
 /* MEDIA QUERY --------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
@@ -80,7 +88,7 @@ textarea {
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 .nav {
-  margin-top: 50px; }
+  margin-top: 20px; }
   .nav__link {
     padding-right: 20px;
     text-decoration: none;
@@ -91,26 +99,6 @@ textarea {
     .nav__link:hover {
       color: #000;
       text-decoration: none; }
-
-.logo {
-  padding-top: 40px; }
-
-.thousand {
-  padding-top: 60px;
-  width: 600px;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: inline-block; }
-
-.header__title {
-  padding-top: 100px;
-  padding-bottom: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: inline-block; }
 
 /* MOBILE STYLES ------------------------------------------------------------*/
 body {
@@ -125,3 +113,42 @@ body {
 /* MEDIA QUERY --------------------------------------------------------------*/
 /* MOBILE STYLES ------------------------------------------------------------*/
 /* MEDIA QUERY --------------------------------------------------------------*/
+.lear-more__title {
+  padding-top: 150px;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  overflow: auto; }
+
+.lear-more__text {
+  color: #7D7987;
+  padding-top: 35px;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  overflow: auto;
+  margin-bottom: 40px; }
+
+.lear-more__img {
+  width: 100%; }
+
+.header__title {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block; }
+
+.header__thousand {
+  padding-top: 60px;
+  padding-bottom: 200px;
+  width: 500px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block; }
+
+.nav .logo {
+  padding-top: 20px; }

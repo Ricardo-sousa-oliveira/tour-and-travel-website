@@ -1,0 +1,35 @@
+.header {
+
+  &__title {
+      padding-top: 100px;
+      padding-bottom: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: inline-block;
+
+  }
+
+  &__thousand {
+    padding-top: 60px;
+    padding-bottom: 200px;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+  }
+  
+  &__button {
+    background: $alpha;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 25px;
+
+    &:hover {
+    text-decoration: none;
+    color: white;
+    }
+  }
+}

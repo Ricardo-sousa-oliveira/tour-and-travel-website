@@ -1,4 +1,5 @@
 .button {
+  
   background: $alpha;
   border-radius: 8px;
   color: white;
@@ -21,18 +22,6 @@
       text-decoration: none;
       color: $alpha;
     }
-  }
-
-  &__header {
-    background: $alpha;
-    border-radius: 8px;
-    color: white;
-    padding: 10px 25px;
-
-  &:hover {
-    text-decoration: none;
-    color: white;
-  }
   }
 }
 

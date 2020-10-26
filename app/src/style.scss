@@ -9,9 +9,15 @@
 @import "sass/modules/links";
 @import "sass/modules/imgs";
 @import "sass/modules/texts";
+
 // Site
 @import "sass/site/site-base";
 @import "sass/site/site-footer";
 @import "sass/site/site-header";
 @import "sass/site/site-nav";
 @import "sass/site/site-sidebar";
+
+// Componets
+@import "./sass/componets/lear-more";
+@import "./sass/componets/header";
+@import "./sass/componets/nav.scss";
