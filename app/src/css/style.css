@@ -27,6 +27,14 @@
     .button--inverted:hover {
       text-decoration: none;
       color: #ff7402b4; }
+  .button__header {
+    background: #ff7402b4;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 25px; }
+    .button__header:hover {
+      text-decoration: none;
+      color: white; }
 
 /* MEDIA QUERY --------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
@@ -98,6 +106,7 @@ textarea {
 
 .header__title {
   padding-top: 100px;
+  padding-bottom: 80px;
   display: flex;
   align-items: center;
   justify-content: center;

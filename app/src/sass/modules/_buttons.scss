@@ -22,7 +22,20 @@
       color: $alpha;
     }
   }
+
+  &__header {
+    background: $alpha;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 25px;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+  }
 }
+
 /* MEDIA QUERY --------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
