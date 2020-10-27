@@ -1,10 +1,8 @@
 .button {
-  
   background: $alpha;
   border-radius: 8px;
   color: white;
-  margin: 0 20px;
-  padding: 5px 25px;
+  padding: 10px 25px;
 
   &:hover {
     text-decoration: none;
@@ -15,8 +13,7 @@
     border-radius: 8px;
     border: 1px solid $alpha;
     color: $alpha;
-    margin: 0 20px;
-    padding: 5px 30px;
+    padding: 10px 30px;
 
     &:hover {
       text-decoration: none;

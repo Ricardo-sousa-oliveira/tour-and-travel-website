@@ -22,17 +22,3 @@
     width: 100%;
   }
 }
-.button {
-
-  &__lear-more {
-    background: $alpha;
-    border-radius: 8px;
-    color: white;
-    padding: 10px 25px;
-
-    &:hover {
-      text-decoration: none;
-      color: white;
-    }
-  }
-}

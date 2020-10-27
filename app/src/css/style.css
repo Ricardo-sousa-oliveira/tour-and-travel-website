@@ -10,39 +10,21 @@
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 .button {
-  background: #ff7402b4;
+  background: #ff7402;
   border-radius: 8px;
   color: white;
-  margin: 0 20px;
-  padding: 5px 25px; }
+  padding: 10px 25px; }
   .button:hover {
     text-decoration: none;
     color: white; }
   .button--inverted {
     border-radius: 8px;
-    border: 1px solid #ff7402b4;
-    color: #ff7402b4;
-    margin: 0 20px;
-    padding: 5px 30px; }
+    border: 1px solid #ff7402;
+    color: #ff7402;
+    padding: 10px 30px; }
     .button--inverted:hover {
       text-decoration: none;
-      color: #ff7402b4; }
-  .button__header {
-    background: #ff7402b4;
-    border-radius: 8px;
-    color: white;
-    padding: 10px 25px; }
-    .button__header:hover {
-      text-decoration: none;
-      color: white; }
-  .button__lear-more {
-    background: #ff7402b4;
-    border-radius: 8px;
-    color: white;
-    padding: 10px 25px; }
-    .button__lear-more:hover {
-      text-decoration: none;
-      color: white; }
+      color: #ff7402; }
 
 /* MEDIA QUERY --------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
@@ -87,19 +69,6 @@ textarea {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
-.nav {
-  margin-top: 20px; }
-  .nav__link {
-    padding-right: 20px;
-    text-decoration: none;
-    color: #B8BECD; }
-    .nav__link--active {
-      text-decoration: none;
-      color: #000; }
-    .nav__link:hover {
-      color: #000;
-      text-decoration: none; }
-
 /* MOBILE STYLES ------------------------------------------------------------*/
 body {
   font-family: Arial, Helvetica, sans-serif; }
@@ -152,3 +121,16 @@ body {
 
 .nav .logo {
   padding-top: 20px; }
+
+.nav .nav {
+  margin-top: 20px; }
+  .nav .nav__link {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #B8BECD; }
+    .nav .nav__link--active {
+      text-decoration: none;
+      color: #000; }
+    .nav .nav__link:hover {
+      color: #000;
+      text-decoration: none; }
