@@ -15,14 +15,14 @@
     <title></title>
   </head>
 
-  <body>
+  <body >
     <section class="nav">
       <div class="container">
         <div class="row">
           <div class="col-sm-2 col-md-5">
             <img class="logo" src="/src/img/logo.png" alt="" />
           </div>
-          <div class="col-sm-10 col-md-7">
+          <div class="col-sm-12 col-md-7">
               <a class="nav__link nav__link--active" href="javascript:;">Home</a>
               <a class="nav__link" href="javascript:;">Destinations</a>
               <a class="nav__link" href="javascript:;">About</a>
@@ -73,15 +73,48 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-10">
-            <h2>Featured destinations</h2>
+            <div class="destinations__featured">
+              <h2>Featured destinations</h2>
+            </div>
           </div>
           <div class="col-12 col-md-2">
-            <a href="javascript:;">View all ></a>
+            <div class="destinations__view">
+              <a class="destinations__view-all" href="javascript:;">View all ></a>
+            </div>
           </div>
-          <div class="col-12 col-md-4">
-            <img src="./src/img/raja-ampat .png" alt="">
-            <p>Raja Ampat</p>
-            <p>Indonesia</p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <div class="destinations__image" style="background-image: url('./src/img/raja-ampat\ .png');">
+              <div class="destinations__info">
+                <p><strong>Raja Ampat</strong></p>
+                <p class="destinations__countries">Indonesia</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="destinations__image" style="background-image: url('./src/img/fanjingshan.png');">
+              <div class="destinations__info">
+                <p><strong>Fanjingshan</strong></p>
+                <p class="destinations__countries">China</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="destinations__image" style="background-image: url('./src/img/Vevey.png');">
+              <div class="destinations__info">
+                <p><strong>Vevey</strong></p>
+                <p class="destinations__countries">Switzerland</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="destinations__image" style="background-image: url('./src/img/Skadar.png');">
+              <div class="destinations__info">
+                <p><strong>Skadar</strong></p>
+                <p class="destinations__countries">Montenegro</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
