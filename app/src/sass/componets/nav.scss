@@ -1,8 +1,13 @@
-.nav {
+@media (min-width: $screen-sm-min) {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 20px;
     margin-top: 20px;
 
     &__link {
+      font-size: 10px;
       padding-right: 20px;
       text-decoration: none;
       color: $grey;
@@ -17,4 +22,30 @@
         text-decoration: none;
       }
     }
+  }
+}
+@media (min-width: $screen-md-min) {
+  .nav {
+
+    &__link {
+      font-size: 13px;
+
+      &--active {
+
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .nav {
+
+    &__link {
+      font-size: 15px;
+
+      &--active {
+
+      }
+    }
+  }
 }

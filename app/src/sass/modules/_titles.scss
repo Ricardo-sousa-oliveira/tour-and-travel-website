@@ -12,9 +12,19 @@
 /* MEDIA QUERY --------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
+  .destinations {
+    &__teste {
+      background: red;
+    }
+  }
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
+  .destinations {
+    &__teste {
+      background: blue;
+    }
+  }
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg-min) {
