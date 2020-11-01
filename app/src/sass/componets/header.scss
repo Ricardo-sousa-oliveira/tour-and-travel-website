@@ -1,13 +1,11 @@
 .header {
-
   &__title {
-      padding-top: 100px;
-      padding-bottom: 80px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      display: inline-block;
-
+    padding-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
   }
 
   &__thousand {
@@ -19,5 +17,55 @@
     justify-content: center;
     display: inline-block;
   }
-  
+}
+@media (min-width: $screen-sm-min) {
+  .header {
+    &__title {
+
+    }
+
+    &__thousand {
+
+    }
+  }
+
+}
+
+@media (min-width: $screen-md-min) {
+  .header {
+    &__title {
+
+    }
+
+    &__thousand {
+
+    }
+  }
+
+}
+
+@media (min-width: $screen-lg-min) {
+  .header {
+    &__title {
+
+    }
+
+    &__thousand {
+
+    }
+  }
+
+}
+
+@media (min-width: $screen-xl-min) {
+  .header {
+    &__title {
+
+    }
+
+    &__thousand {
+
+    }
+  }
+
 }
