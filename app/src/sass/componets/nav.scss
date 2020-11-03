@@ -1,6 +1,7 @@
 .nav {
   display: flex;
-  display: block;
+  flex-direction: column;
+  align-items: baseline;
   padding-top: 20px;
   margin-top: 20px;
 
@@ -23,39 +24,24 @@
 }
 @media (min-width: $screen-sm-min) {
   .nav {
-
     &__link {
       font-size: 8px;
-
-      &--active {
-
-      }
     }
   }
 }
 
 @media (min-width: $screen-md-min) {
   .nav {
-
     &__link {
       font-size: 9px;
-
-      &--active {
-
-      }
     }
   }
 }
 
 @media (min-width: $screen-lg-min) {
   .nav {
-
     &__link {
       font-size: 15px;
-
-      &--active {
-
-      }
     }
   }
 }

@@ -10,7 +10,7 @@
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 .button {
-  font-size: 7px;
+  font-size: 12px;
   background: #ff7402;
   border-radius: 6px;
   color: white;
@@ -19,39 +19,12 @@
     text-decoration: none;
     color: white; }
   .button--inverted {
-    font-size: 7px;
     border-radius: 6px;
     border: 1px solid #ff7402;
     color: #ff7402;
-    padding: 7px 17px;
-    margin-right: 15px; }
+    background: transparent; }
     .button--inverted:hover {
-      text-decoration: none;
       color: #ff7402; }
-
-@media (min-width: 576px) {
-  .button {
-    font-size: 8px;
-    padding: 8px 19px; }
-    .button--inverted {
-      font-size: 8px;
-      padding: 8px 19px; } }
-
-@media (min-width: 768px) {
-  .button {
-    font-size: 9px;
-    padding: 9px 19px; }
-    .button--inverted {
-      font-size: 9px;
-      padding: 9px 19px; } }
-
-@media (min-width: 992px) {
-  .button {
-    font-size: 13px;
-    padding: 10px 22px; }
-    .button--inverted {
-      font-size: 13px;
-      padding: 10px 22px; } }
 
 /* MOBILE STYLES ------------------------------------------------------------*/
 /* MEDIA QUERY --------------------------------------------------------------*/
@@ -114,7 +87,6 @@ body {
 /* MOBILE STYLES ------------------------------------------------------------*/
 /* MEDIA QUERY --------------------------------------------------------------*/
 .lear-more__title {
-  padding-top: 150px;
   display: flex;
   align-items: baseline;
   justify-content: flex-end;
@@ -141,17 +113,17 @@ body {
   display: inline-block; }
 
 .header__thousand {
-  padding-top: 60px;
-  padding-bottom: 200px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  display: inline-block; }
+  display: inline-block;
+  margin-bottom: 50px; }
 
 .nav {
   display: flex;
-  display: block;
+  flex-direction: column;
+  align-items: baseline;
   padding-top: 20px;
   margin-top: 20px; }
   .nav__link {
@@ -189,6 +161,8 @@ body {
       color: #ff7402;
       text-decoration: none; }
   .destinations__image {
+    margin-bottom: 30px;
+    background-size: cover;
     width: 100%;
     height: 332px;
     border-radius: 10px;
