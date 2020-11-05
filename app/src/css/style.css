@@ -86,19 +86,9 @@ body {
 /* MEDIA QUERY --------------------------------------------------------------*/
 /* MOBILE STYLES ------------------------------------------------------------*/
 /* MEDIA QUERY --------------------------------------------------------------*/
-.lear-more__title {
-  display: flex;
-  align-items: baseline;
-  justify-content: flex-end;
-  overflow: auto; }
-
 .lear-more__text {
   color: #7D7987;
   padding-top: 35px;
-  display: flex;
-  align-items: baseline;
-  justify-content: flex-end;
-  overflow: auto;
   margin-bottom: 40px; }
 
 .lear-more__img {

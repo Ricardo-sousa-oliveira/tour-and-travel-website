@@ -1,18 +1,7 @@
 .lear-more {
-  &__title {
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-end;
-    overflow: auto;
-  }
-
   &__text {
     color: #7D7987;
     padding-top: 35px;
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-end;
-    overflow: auto;
     margin-bottom: 40px;
   }
 
