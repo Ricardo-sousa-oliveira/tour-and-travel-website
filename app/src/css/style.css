@@ -86,12 +86,12 @@ body {
 /* MEDIA QUERY --------------------------------------------------------------*/
 /* MOBILE STYLES ------------------------------------------------------------*/
 /* MEDIA QUERY --------------------------------------------------------------*/
-.lear-more__text {
+.information__text {
   color: #7D7987;
   padding-top: 35px;
   margin-bottom: 40px; }
 
-.lear-more__img {
+.information__img {
   width: 100%;
   margin-bottom: 40px; }
 
