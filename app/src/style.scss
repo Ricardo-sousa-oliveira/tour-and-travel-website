@@ -1,3 +1,8 @@
+// Slick
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+
 // Modules
 @import "sass/modules/variables";
 @import "sass/modules/colors";
@@ -19,3 +24,5 @@
 @import "./sass/componets/header";
 @import "./sass/componets/nav";
 @import "./sass/componets/destinations";
+@import "./sass/componets/opinions.scss";
+
