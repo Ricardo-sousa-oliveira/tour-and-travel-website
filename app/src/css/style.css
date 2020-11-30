@@ -390,5 +390,35 @@ body {
     width: 58%;
     height: 17%; } }
 
-.opinions__img {
-  width: 100%; }
+.opinions {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .opinions__title {
+    margin-bottom: 70px; }
+  .opinions__text {
+    margin-top: 110px; }
+  .opinions__img {
+    margin-bottom: 30px;
+    background-size: cover;
+    width: 100%;
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row-reverse; }
+  .opinions__box {
+    border-top-left-radius: 10px;
+    width: 34%;
+    height: 12%;
+    background: white; }
+  .opinions__button {
+    width: 40px;
+    height: 40px;
+    border: solid 2px black;
+    border-radius: 200px;
+    background: transparent;
+    margin-top: 6px;
+    margin-left: 9px; }
