@@ -16,24 +16,39 @@
   }
 
   &__list {
-    padding-left: 0;
     margin-bottom: 0;
   }
 
   &__link {
     font-size: 14px;
-    padding-right: 20px;
-    text-decoration: none;
     color: $grey;
+    padding: 15px 0;
+    border-bottom: solid 1px rgb(214, 209, 209);
+    display: block;
+    text-align: center;
 
     &--active {
-      text-decoration: none;
       color: $black;
     }
 
     &:hover {
-      color: $black;
+      color: rgb(90, 89, 89);
+      background: rgb(209, 202, 202);
       text-decoration: none;
     }
+
+  }
+  &__item {
+    &:last-child {
+      .nav__link {
+        border-bottom: none;
+      }
+    }
+  }
+
+  &__button {
+    display: block;
+    text-align: center;
+
   }
 }

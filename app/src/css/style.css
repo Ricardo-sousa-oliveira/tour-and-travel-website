@@ -425,19 +425,25 @@ body {
     width: 45px;
     height: 45px; }
   .nav__list {
-    padding-left: 0;
     margin-bottom: 0; }
   .nav__link {
     font-size: 14px;
-    padding-right: 20px;
-    text-decoration: none;
-    color: #B8BECD; }
+    color: #B8BECD;
+    padding: 15px 0;
+    border-bottom: solid 1px #d6d1d1;
+    display: block;
+    text-align: center; }
     .nav__link--active {
-      text-decoration: none;
       color: #000; }
     .nav__link:hover {
-      color: #000;
+      color: #5a5959;
+      background: #d1caca;
       text-decoration: none; }
+  .nav__item:last-child .nav__link {
+    border-bottom: none; }
+  .nav__button {
+    display: block;
+    text-align: center; }
 
 .destinations__featured {
   margin-bottom: 30px; }
