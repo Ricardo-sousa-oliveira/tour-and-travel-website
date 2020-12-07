@@ -417,7 +417,8 @@ body {
   flex-direction: flex-end;
   align-items: flex-end;
   padding-top: 20px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  justify-content: space-between; }
   .nav__hamburger {
     display: flex;
     justify-content: space-between; }
@@ -434,7 +435,7 @@ body {
     display: block;
     text-align: center; }
     .nav__link--active {
-      color: #000; }
+      color: #5a5959; }
     .nav__link:hover {
       color: #5a5959;
       background: #d1caca;
@@ -444,6 +445,26 @@ body {
   .nav__button {
     display: block;
     text-align: center; }
+  .nav__group {
+    display: none; }
+
+@media (min-width: 992px) {
+  .nav {
+    display: flex; }
+    .nav__hamburger .hamburger {
+      display: none; }
+    .nav__group {
+      display: flex; }
+    .nav__list {
+      display: flex;
+      align-items: baseline; }
+    .nav__item {
+      padding: 0 15px; }
+    .nav__link {
+      border-bottom: none;
+      display: inline; }
+      .nav__link:hover {
+        background: none; } }
 
 .destinations__featured {
   margin-bottom: 30px; }

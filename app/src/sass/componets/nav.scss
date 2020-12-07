@@ -4,6 +4,7 @@
   align-items: flex-end;
   padding-top: 20px;
   margin-top: 20px;
+  justify-content: space-between;
 
   &__hamburger {
     display: flex;
@@ -28,7 +29,7 @@
     text-align: center;
 
     &--active {
-      color: $black;
+      color: rgb(90, 89, 89);
     }
 
     &:hover {
@@ -36,7 +37,6 @@
       background: rgb(209, 202, 202);
       text-decoration: none;
     }
-
   }
   &__item {
     &:last-child {
@@ -49,6 +49,43 @@
   &__button {
     display: block;
     text-align: center;
+  }
 
+  &__group {
+    display: none;
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .nav {
+    display: flex;
+
+    &__hamburger {
+      & .hamburger {
+        display: none;
+      }
+    }
+
+    &__group {
+      display: flex;
+    }
+
+    &__list {
+      display: flex;
+      align-items: baseline;
+    }
+
+    &__item {
+      padding: 0 15px;
+    }
+
+    &__link {
+      border-bottom: none;
+      display: inline;
+
+      &:hover {
+        background: none;
+      }
+    }
   }
 }
