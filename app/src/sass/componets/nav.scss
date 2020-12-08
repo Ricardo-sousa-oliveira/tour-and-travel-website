@@ -4,7 +4,6 @@
   align-items: flex-end;
   padding-top: 20px;
   margin-top: 20px;
-  justify-content: space-between;
 
   &__hamburger {
     display: flex;
@@ -53,6 +52,7 @@
 
   &__group {
     display: none;
+    justify-content: flex-end;
   }
 }
 

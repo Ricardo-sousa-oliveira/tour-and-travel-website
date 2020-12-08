@@ -417,8 +417,7 @@ body {
   flex-direction: flex-end;
   align-items: flex-end;
   padding-top: 20px;
-  margin-top: 20px;
-  justify-content: space-between; }
+  margin-top: 20px; }
   .nav__hamburger {
     display: flex;
     justify-content: space-between; }
@@ -446,7 +445,8 @@ body {
     display: block;
     text-align: center; }
   .nav__group {
-    display: none; }
+    display: none;
+    justify-content: flex-end; }
 
 @media (min-width: 992px) {
   .nav {
@@ -551,3 +551,17 @@ body {
     margin-left: 9px; }
     .opinions__button:focus {
       outline: none; }
+
+.stories__link {
+  color: #ff7402; }
+  .stories__link:hover {
+    color: #ff7402;
+    text-decoration: none; }
+
+.stories__text {
+  text-align: center; }
+
+.stories__img {
+  background: #b1abab;
+  width: 260px;
+  height: 260px; }
