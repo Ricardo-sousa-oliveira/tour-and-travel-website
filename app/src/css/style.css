@@ -523,8 +523,6 @@ body {
   align-items: center; }
   .opinions__title {
     margin-bottom: 70px; }
-  .opinions__text {
-    margin-top: 110px; }
   .opinions__img {
     margin-bottom: 30px;
     background-size: cover;
@@ -561,7 +559,14 @@ body {
 .stories__text {
   text-align: center; }
 
+.stories__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
 .stories__img {
   background: #b1abab;
   width: 260px;
-  height: 260px; }
+  height: 260px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
