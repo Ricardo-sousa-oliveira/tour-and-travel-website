@@ -550,14 +550,29 @@ body {
     .opinions__button:focus {
       outline: none; }
 
+.stories__title {
+  margin-bottom: 30px; }
+
+.stories__box {
+  width: 100%;
+  text-align: center; }
+
 .stories__link {
-  color: #ff7402; }
+  color: #ff7402;
+  margin-bottom: 25px;
+  display: inline-block;
+  text-align: center; }
   .stories__link:hover {
     color: #ff7402;
     text-decoration: none; }
 
-.stories__text {
+.stories__info {
   text-align: center; }
+
+.stories__text {
+  text-align: center;
+  font-size: 13px;
+  color: #7D7987; }
 
 .stories__card {
   display: flex;
@@ -566,7 +581,15 @@ body {
 
 .stories__img {
   background: #b1abab;
-  width: 260px;
-  height: 260px;
+  width: 220px;
+  height: 220px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px; }
+
+@media (min-width: 576px) {
+  .stories__info {
+    text-align: left; }
+  .stories__text {
+    text-align: left; }
+  .stories__box {
+    text-align: left; } }

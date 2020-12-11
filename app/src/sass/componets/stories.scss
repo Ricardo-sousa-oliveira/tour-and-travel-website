@@ -1,6 +1,21 @@
 .stories {
+
+  &__title {
+    margin-bottom: 30px;
+
+  }
+
+  &__box {
+    width: 100%;
+    text-align: center;
+
+  }
+
   &__link {
     color: $alpha;
+    margin-bottom: 25px;
+    display: inline-block;
+    text-align: center;
 
     &:hover {
       color: $alpha;
@@ -8,8 +23,15 @@
     }
   }
 
+  &__info {
+    text-align: center;
+
+  }
+
   &__text {
     text-align: center;
+    font-size: 13px;
+    color:  #7D7987;
   }
 
   &__card {
@@ -20,9 +42,27 @@
 
   &__img {
     background: rgb(177, 171, 171);
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .stories {
+    &__info {
+      text-align: left;
+
+    }
+
+    &__text {
+      text-align: left;
+    }
+
+    &__box {
+      text-align: left;
+    }
+
   }
 }
