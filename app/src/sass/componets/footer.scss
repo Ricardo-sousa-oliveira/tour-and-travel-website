@@ -1,0 +1,42 @@
+.footer {
+  &__logo {
+    margin-bottom: 15px;
+
+  }
+
+  &__text {
+    color: rgb(177, 171, 171);
+  }
+
+  &__link {
+    color: rgb(177, 171, 171);
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+
+    &--title {
+      color: black;
+
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  &__social {
+    padding-top: 20px;
+    border-top: 1px solid rgb(177, 171, 171);
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__svg {
+    margin-left: 13px;
+    margin-bottom: 15px;
+
+  }
+}
